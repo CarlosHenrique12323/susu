@@ -1,0 +1,267 @@
+*{margin: 0px;}
+
+.p{
+    display: grid;
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 40px;
+   display: flex;
+}
+
+
+.img1{
+    height:20px;
+    width: 15px;
+    padding-left: 350px;
+    padding-top: 10px;
+}
+
+.hello{
+    padding-left: 10px;
+    padding-top: 8px;
+}
+.reto{
+    padding-left: 10px;
+    padding-top: 8px;
+    color: black;
+   
+    height: 1px;
+}
+.p2{
+    width: 100%;
+    height: 90px;
+    display: grid;
+    display: flex;
+
+}
+.ogani{
+    padding-left: 18%;
+}
+#dad{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    
+}
+.free{
+    padding-top: 8px;
+    padding-left: 10px;
+}
+#drop{
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+    z-index: -2;
+}
+
+.Pages:hover #drop{
+    opacity: 1;
+    z-index: 2;}
+
+.face{
+    padding-top: 8px;  
+    padding-left: 500px;
+}
+.twit{
+    padding-top: 8px;
+    padding-left: 20px;
+}
+.linke{
+    padding-top: 8px;
+    padding-left: 20px;
+}
+.pin{
+    padding-top: 8px;
+    padding-left: 20px;
+}
+.eua{
+    padding-top: 8px;
+    padding-left: 20px;
+}
+.english{
+    padding-top: 8px;
+    padding-left: 10px;
+    list-style: none
+}
+.seta2{
+   height: 15px;
+   width: 15px;
+}
+.seta{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.user{
+    padding-top: 9px;
+    padding-left: 15px;
+
+}
+.login{
+    padding-top: 8px;
+    padding-left: 10px;
+}
+#drop2{
+   list-style: none;
+   padding: 0;
+   
+   transition: 1s;
+   z-index: -2;
+   opacity: 0;
+   background-color: black;
+   color: #f5f5f5;
+}
+.english:hover #drop2{
+    opacity: 1;
+    z-index: 2;
+
+}
+.home{padding-left: 200px;
+    padding-top: 20px;
+}
+.shop{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.Pages{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.blog{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.contact{
+    padding-left: 40px;
+    padding-top: 20px;
+    
+}
+
+#dad{
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr 0fr 1.9fr 0.2fr 0.2fr 1fr  ;
+}
+.item{
+    padding-top: 20px;
+}
+.bolsa{
+    padding-top: 20px;
+}
+.coracao{
+    padding-top: 20px;
+}
+.p3{
+    display: grid;
+    grid-template-columns: 0.75fr 0.4fr 1fr 0.5fr 1fr ;
+}
+
+.check{
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.menugreen{
+    padding-top: 20px;
+    position: absolute;
+    list-style: none;
+    opacity: 0;
+    border: solid 1px;
+    padding: 0px 0px 0px 0px;
+    width: 275.5px;
+    border-top: 0px;
+    border-color: rgb(173, 169, 169);
+    color: black;
+    text-align: left;
+    
+}
+
+.check:checked~.menugreen{opacity: 1;}
+
+
+.paddingli2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 43px;}
+.all{
+    border: solid;
+    height: 40px;
+    padding-top: 8px;
+}
+.flecha{
+    padding-top: 8px;
+}
+.check{
+     
+    width: 50px;
+}
+.fotogrande{
+    display: grid;
+    grid-template-columns: 0.34fr 1fr ;
+}
+.fotogrande2{
+    display: grid;
+    grid-template-columns: 0.50fr 1fr 1fr 1fr 1fr 1fr 1fr 0fr ;
+}
+
+.foto1{
+  padding-right: 20px;
+}
+.foto2{
+    padding-right: 20px;
+  }
+  .foto3{
+    padding-right: 20px;
+  }
+  .foto3{
+    padding-right: 20px;
+  }
+.btn1{
+    padding-left: 210px;
+}
+.btn2{
+    padding-left: 20px;
+}
+.phone{
+    padding-left: 100px;
+}
+.featured{
+    display: grid;
+    grid-template-columns: 0.90fr 1fr 0fr;
+}
+
+.featured2{
+    display: grid;
+    grid-template-columns: 2fr 0.2fr 0.3fr 0.4fr 0.3fr 2fr 0fr;
+}
+.featured3{
+    display: grid;
+    grid-template-columns: 1fr 0.9fr 0.23fr 0.23fr 1fr 0.23fr;
+}
+.foto5{
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.foto6{
+    padding-top: 15px;
+    padding-right: 40px;
+}
+.foto7{
+    padding-top: 15px;
+    padding-right: 40px;
+}
+.foto8{
+    padding-top: 15px;
+    padding-right: 50px;
+}
+.featured4{
+    display: grid;
+    grid-template-columns: 0.99fr 0.8fr 0.7fr 0.7fr 1fr 0fr;
+}
+.featured5{
+    display: grid;
+    grid-template-columns: 0.6fr 0.9fr 1fr 0fr ;
+}
+
